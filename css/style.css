@@ -11,6 +11,7 @@
 
 /*commom start*/
 body{
+    padding-top: 109px;
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -89,7 +90,8 @@ header{
 }
 .s_icon ul li i{
     font-size: 42px;
-    color: #010101
+    color: #010101;
+    transition: .3s;
 }
 .s_icon ul li i:hover{
     transform: scale(.8);
